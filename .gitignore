@@ -1,0 +1,34 @@
+# build outputs
+build/
+external/
+build-*/
+cmake-build-*/
+_deps/
+pfpi_impute2t/
+tests/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+*.o
+*.a
+*.so
+# data and results (never commit sequence data or indexes)
+*.fa
+*.fa.gz
+*.fasta
+*.fastq*
+*.agc
+*.meta
+*.dict
+*.parse
+*.parse.rev
+*.gaps
+*.rlcsa
+*.tags
+*.hits.gz
+# editors, OS, Python
+.vscode/
+.idea/
+.DS_Store
+__pycache__/
+*.pyc
