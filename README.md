@@ -1,6 +1,6 @@
 # SIFT
 
-SIFT indexes a pangenome parsed with [PFSP](https://github.com/eferro1/PFSP) and finds pseudo-MEMs between a query
+SIFT indexes a pangenome parsed with [PFSP](https://github.com/EddieFerro/PFSP) and finds pseudo-MEMs between a query
 and the pangenome's haplotypes. From the pseudo-MEMs of an assembly's contigs, `scripts/select_panels.py` ranks the
 haplotypes closest to the assembly, without population labels, and selects a small donor panel for assembly
 patching (for example with ImpuT2T).
@@ -11,7 +11,7 @@ Requirements: a C++20 compiler, CMake ≥ 3.20, zlib, OpenMP, and git. sdsl-lite
 downloaded at configure time at pinned versions; PFSP is included as a git submodule (`external/PFSP`).
 
 ```bash
-git clone --recursive https://github.com/<user>/SIFT.git
+git clone --recursive https://github.com/EddieFerro/SIFT.git
 cd SIFT
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j        # -> build/sift
