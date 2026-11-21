@@ -1,6 +1,6 @@
 # SIFT
 
-SIFT indexes a pangenome parsed with [PFSP](https://github.com/<user>/PFSP) and finds pseudo-MEMs between a query
+SIFT indexes a pangenome parsed with [PFSP](https://github.com/eferro1/PFSP) and finds pseudo-MEMs between a query
 and the pangenome's haplotypes. From the pseudo-MEMs of an assembly's contigs, `scripts/select_panels.py` ranks the
 haplotypes closest to the assembly, without population labels, and selects a small donor panel for assembly
 patching (for example with ImpuT2T).
